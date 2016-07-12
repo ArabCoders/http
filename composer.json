@@ -1,0 +1,29 @@
+{
+    "name": "arabcoders/http",
+    "type": "library",
+    "description": "HTTP Package",
+    "keywords": [
+        "http",
+        "curl",
+        "request"
+    ],
+    "homepage": "https://www.abdulmohsen.me",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "AbdulMohsen B. A. A.",
+            "email": "admin@arabcoders.org",
+            "homepage": "https://www.abdulmohsen.me"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arabcoders\\http\\": "src/"
+        }
+    }
+}
+
